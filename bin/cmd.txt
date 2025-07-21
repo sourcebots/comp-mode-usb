@@ -1,0 +1,1 @@
+esptool.py --chip esp32s3 --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size 16MB 0x0 adafruit-circuitpython-lilygo_tdongle_s3-en_US-20250708-main-PR10462-e1ccd6c.bin
